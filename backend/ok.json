@@ -1,0 +1,147 @@
+Schema {
+    obj: {
+      name: { type: [Function: String], required: true },
+      email: { type: [Function: String], required: true },
+      public_key: { type: [Function: String], required: true },
+      date: { type: [Function: String], default: 1685042176008 }
+    },
+    paths: {
+      name: SchemaString {
+        enumValues: [],
+        regExp: null,
+        path: 'name',
+        instance: 'String',
+        validators: [Array],
+        getters: [],
+        setters: [],
+        _presplitPath: [Array],
+        options: [SchemaStringOptions],
+        _index: null,
+        isRequired: true,
+        requiredValidator: [Function (anonymous)],
+        originalRequiredValue: true,
+        [Symbol(mongoose#schemaType)]: true
+      },
+      email: SchemaString {
+        enumValues: [],
+        regExp: null,
+        path: 'email',
+        instance: 'String',
+        validators: [Array],
+        getters: [],
+        setters: [],
+        _presplitPath: [Array],
+        options: [SchemaStringOptions],
+        _index: null,
+        isRequired: true,
+        requiredValidator: [Function (anonymous)],
+        originalRequiredValue: true,
+        [Symbol(mongoose#schemaType)]: true
+      },
+      public_key: SchemaString {
+        enumValues: [],
+        regExp: null,
+        path: 'public_key',
+        instance: 'String',
+        validators: [Array],
+        getters: [],
+        setters: [],
+        _presplitPath: [Array],
+        options: [SchemaStringOptions],
+        _index: null,
+        isRequired: true,
+        requiredValidator: [Function (anonymous)],
+        originalRequiredValue: true,
+        [Symbol(mongoose#schemaType)]: true
+      },
+      date: SchemaString {
+        enumValues: [],
+        regExp: null,
+        path: 'date',
+        instance: 'String',
+        validators: [],
+        getters: [],
+        setters: [],
+        _presplitPath: [Array],
+        options: [SchemaStringOptions],
+        _index: null,
+        defaultValue: 1685042176008,
+        [Symbol(mongoose#schemaType)]: true
+      },
+      _id: ObjectId {
+        path: '_id',
+        instance: 'ObjectID',
+        validators: [],
+        getters: [],
+        setters: [Array],
+        _presplitPath: [Array],
+        options: [SchemaObjectIdOptions],
+        _index: null,
+        defaultValue: [Function],
+        [Symbol(mongoose#schemaType)]: true
+      },
+      __v: SchemaNumber {
+        path: '__v',
+        instance: 'Number',
+        validators: [],
+        getters: [],
+        setters: [],
+        _presplitPath: [Array],
+        options: [SchemaNumberOptions],
+        _index: null,
+        [Symbol(mongoose#schemaType)]: true
+      }
+    },
+    aliases: {},
+    subpaths: {},
+    virtuals: {
+      id: VirtualType {
+        path: 'id',
+        getters: [Array],
+        setters: [],
+        options: {}
+      }
+    },
+    singleNestedPaths: {},
+    nested: {},
+    inherits: {},
+    callQueue: [],
+    _indexes: [],
+    methods: {},
+    methodOptions: {},
+    statics: {},
+    tree: {
+      name: { type: [Function: String], required: true },
+      email: { type: [Function: String], required: true },
+      public_key: { type: [Function: String], required: true },
+      date: { type: [Function: String], default: 1685042176008 },
+      _id: { auto: true, type: 'ObjectId' },
+      __v: [Function: Number],
+      id: VirtualType {
+        path: 'id',
+        getters: [Array],
+        setters: [],
+        options: {}
+      }
+    },
+    query: {},
+    childSchemas: [],
+    plugins: [
+      { fn: [Function (anonymous)], opts: [Object] },
+      { fn: [Function (anonymous)], opts: [Object] },
+      { fn: [Function], opts: [Object] },
+      { fn: [Function (anonymous)], opts: [Object] },
+      { fn: [Function: trackTransaction], opts: [Object] },
+      { fn: [Function (anonymous)], opts: [Object] }
+    ],
+      discriminatorKey: '__t',
+      optimisticConcurrency: false,
+      versionKey: '__v',
+      capped: false,
+      bufferCommands: true,
+      strictQuery: false,
+      strict: true,
+      pluralization: true
+    },
+    '$globalPluginsApplied': true
+  }

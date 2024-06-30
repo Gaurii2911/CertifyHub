@@ -1,0 +1,24 @@
+{
+  "name": "certicryp-backend",
+  "version": "1.0.0",
+  "description": "A Trustless Certification Portal for Universities to Mint and for the Holders to Hold theor certificates in the forn of NFTs powered by Blockchain ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aditya Roshan Joshi",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "chalk": "^4.1.2",
+    "cors-anywhere": "^0.4.4",
+    "express": "^4.18.2",
+    "ipfs-http-client": "^56.0.2",
+    "lsof": "^0.1.0",
+    "mongodb": "^5.5.0",
+    "mongoose": "^5.13.17",
+    "moongose": "^1.0.0",
+    "validator": "^13.9.0",
+    "yargs": "^17.7.2"
+  }
+}
